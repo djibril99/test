@@ -1,0 +1,122 @@
+			/* Mise en place du menu*/
+			#haut{
+        	   margin-top: -15px;
+			   height: 15cm;
+			   border: 1;
+			   border-radius: 15;
+			 }
+			 #fond_d_ecran{
+				margin-top: -15px;		   
+				height: 100%; 
+				width:100% ;
+				background-repeat: repeat  ;
+				background-position-x:center;
+				
+			  }
+			 #menu{
+				
+				 height: 0.69cm;
+				 margin: -0.9cm;
+				 ;
+			 }
+			 #menu ul /*initialisation des marges interieurs et exterieurs à une valeur de 0px*/
+			 {
+			   margin-left: 1.7cm;
+			   padding: 0;
+			   color: white;
+			   margin-top: 2px;
+			 }
+			 #menu li 
+			 {
+				list-style: none;
+				float: left;
+				position: relative;
+			 }
+			 #menu ul li 
+			 {
+				 text-decoration: none;
+				 width: 200px;
+				 height: 30px;
+				 display: block;
+				 text-align: center; 
+				 font-size: 24px;
+				 box-shadow: 2px 3px 4px white;
+				 border-radius: 100px;
+			 }
+						  /*pour ces parties nous asseyerons de masquer tous les elements des listes non ordonnées 
+			 et ne s afficheront que si l utilisateur y pointe sa souris */
+			
+				 /*pour cette partie nous tentons d afficher tous les elements appartenants à une liste non ordonée du menu*/
+				 #menu ul li a{
+					background-color: rgb(23, 23, 168) ;
+				  color:white;
+				  text-decoration: none;
+				  border: 1px solid black ;
+				border-radius: 15px ;
+				  transition: 3s;
+				  text-shadow: 2px 3px 4px red
+				
+				}
+				#menu ul li:hover a ,#menu ul li #selected{
+					color:black ;
+					background-color:red;
+					border: 3px solid white ;
+					border-radius: 15px;
+					transition: 0.52s;
+					text-decoration: underline;
+					box-shadow: 2px 3px 4px green;
+				  }
+						/* Fin du menu */
+			.presentation {
+				text-decoration: underline;
+				font-size: 30px;
+				color: red;
+				text-align: center;
+				text-shadow: 2px 3px 4px blue
+				
+			} 
+			/*partie de la page*/
+
+			  .text_de_gauche{
+				  margin-right: 5cm;				
+				margin-left: 5cm;
+				margin-bottom: 3cm;
+				margin-top: 1cm;
+				width: 5.5;
+				font-size: 20px;							
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				color:rgb(24, 16, 5);
+				
+				
+			  }
+			#contenu{
+			  background-color:;
+			  width: 5cm;
+			  margin-left: -50cm;
+			  float: right;
+			}
+
+			/*contenu*/
+			#statut{
+				margin-top: 4cm;
+			}
+			#statut img{
+				height:400px ;
+				width:800px;
+				margin-left: 7cm;
+				margin-top: 1cm;
+				box-shadow: 20px 20px 20px indigo;
+			}
+			#video{
+				margin-left: 11cm;
+				width:15cm;
+				height: 8cm;
+				
+			}
+		    .rue{
+				width: 6cm;
+				height: 5cm;
+			}
+			#fond{
+				background-image: url('fonda.png');
+			}

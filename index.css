@@ -1,0 +1,163 @@
+			/* Mise en place du menu*/
+#fond_d_ecran
+{
+background-image: url('fonda.png');
+margin-top: 5px;		   
+height: 120%; 
+width:100% ;
+background-repeat: repeat  ;
+background-position-x:center;
+background-size: 1500px;
+ }
+ #menu{
+   position: fixed;
+ }
+ #menu ul /*initialisation des marges interieurs et exterieurs à une valeur de 0px*/
+ {
+   margin-left: 1.7cm;
+   padding: 0;
+   color: white;
+   margin-top: 2px;
+ }
+ #menu li 
+ {
+    list-style: none;
+    float: left;
+    position: relative;
+ }
+ #menu ul li 
+ {
+ 	text-decoration: none;
+ 	width: 200px;
+ 	height: 30px;
+ 	display: block;
+ 	text-align: center; 
+ 	font-size: 24px; 
+   box-shadow: 2px 3px 4px white;
+   border-radius: 100px;
+ }
+              /*pour ces parties nous asseyerons de masquer tous les elements des listes non ordonnées 
+ et ne s afficheront que si l utilisateur y pointe sa souris */
+
+     /*pour cette partie nous tentons d afficher tous les elements appartenants à une liste non ordonée du menu*/
+#menu ul li a {
+  background-color: rgb(23, 23, 168) ;
+  color:white;
+  text-decoration: none;
+  border: 1px solid black ;
+border-radius: 15px ;
+  transition: 3s;
+  text-shadow: 2px 3px 4px red
+}
+
+#menu ul li:hover a ,#menu ul li #acceuil{
+  color:black ;
+  background-color:red;
+  border: 3px solid white ;
+  border-radius: 15px;
+  transition: 0.52s;
+  text-decoration: underline;
+  box-shadow: 2px 3px 4px green;
+}
+			/* Fin du menu */
+
+#salutation {
+  height: 1cm;
+text-align: center;
+font-size: 30px;
+display:block ;
+margin-bottom: 1.4002cm;
+box-shadow: 9px 8px 5px red;
+color:rgb(254, 253, 251);
+position:sticky;
+text-shadow: 4px 1px 1px greenyellow;
+
+}
+
+/*partie de la page*/
+#entete{
+    height:70px; 
+}
+#milieu{
+  height: 450px
+}
+#pied_page{
+  height: 25px
+}
+#gauche,#contenu{
+  display: inline-block;
+  height: inherit;
+}
+#gauche{
+  width: 21%;
+  float: left;
+  font-size: larger;
+ 
+  
+}
+#text_de_gauche{
+  border: 2px solid black;
+  border-radius: 15px ;
+  margin-left: 1cm;
+  margin-bottom: 0.5cm;
+  font-size: 20px;
+  background-color: rgba(9, 9, 77, 0.568);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+  box-shadow: 8px 4px 2px black ;
+
+  
+}
+#contenu{
+  width: 73%;
+  float: right;
+  
+}
+.presentation {
+  text-decoration: underline;
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  text-shadow: 4px 0px 0px black;
+  
+}
+.premier , .deuxieme , .troisieme {
+  display: inline-block;
+  margin-left: 1.5cm;
+  margin-top: 1cm;
+
+  
+}
+span div img {
+  width: 7cm;
+  height: 5cm;
+  box-shadow: 8px 4px 2px rgb(8, 19, 99);
+  border-radius: 0px 15px 15px;
+  border: 1px black;
+}
+.precision{
+  margin-left: 2cm;
+  margin-top: 0.3cm;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 15px;
+  height: 0.65cm;
+  box-shadow: 8px 4px 2px white;
+  border: 15px;
+  color:maroon;
+  text-shadow: 4px 1px 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
